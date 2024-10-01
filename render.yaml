@@ -43,10 +43,6 @@ services:
       - key: N8N_ENCRYPTION_KEY
         generateValue: true
 
-gotenberg:
-    image: gotenberg/gotenberg:8
-    ports:
-      - "3000:3000"
 
 databases:
   - name: n8nDB
